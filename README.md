@@ -14,8 +14,10 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <!--
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
+    -->
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -58,13 +60,20 @@ pip install -r requirement.txt -U
 2. Mac OS X
 ```
 python -m virtualenv venv
-source /venv/bin/activate
+source ./venv/bin/activate
 pip install -r requirements.txt -U
 ```
 
+3. Linux
+```
+python -m virtualenv venv
+source ./venv/bin/activate
+pip install -r requirements.txt -U 
+```
 
 ## Usage
 ```
+cd ./source
 python OnlineAnomalyDetection.py -dataSource ../datasets/shuttle_small.csv -targetColumn 9 -initialBatchTrainingSize 100 -batchSize 5 -maxSamples 1000 -timesteps_for_LSTM 5
 ```
 
