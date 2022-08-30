@@ -50,7 +50,6 @@ Major frameworks that we are using.
 
 1. Windows
 ```
-cd Online-Outlier-Detection
 python -m virtualenv venv
  & ./venv/Scripts/Activate.ps1
 pip install -r requirement.txt -U
