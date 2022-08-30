@@ -73,9 +73,10 @@ source ./venv/bin/activate
 pip install -r requirement.txt -U
 ```
 
-## Usage
+## Usage Example on Shuttle data - (OS X and Linux)
 ```
 cd ./source
+mkdir data_results
 python OnlineAnomalyDetection.py -dataSource ../datasets/shuttle_small.csv -targetColumn 9 -initialBatchTrainingSize 100 -batchSize 5 -maxSamples 1000 -timesteps_for_LSTM 5
 ```
 
