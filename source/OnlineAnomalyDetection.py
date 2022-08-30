@@ -235,8 +235,8 @@ if __name__ == '__main__':
                             isSupervised=False, ifSaveResult = True, isPretrain = True)
     
     # More models to add...
-    # detectors = [knn_online, isolate_forest_PA, LSTM_model, isolate_forest]
-    detectors = [LSTM_model]
+    detectors = [knn_online, isolate_forest_PA, LSTM_model, isolate_forest]
+    # detectors = [LSTM_model]
     trained_detectors = []
     for m in detectors:
         try:
