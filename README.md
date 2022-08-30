@@ -46,43 +46,25 @@ Major frameworks that we are using.
 
 ### Installation
 
-1. Initiate an virtual environment (optional)
+1. Windows
 ```
 cd Online-Outlier-Detection
 python -m virtualenv venv
  & ./venv/Scripts/Activate.ps1
-```
-2. Install the required libraries
-```
 pip install -r requirement.txt -U
 ```
 
 
+2. Mac OS X
+```
+python -m virtualenv venv
+source /venv/bin/activate
+pip install -r requirements.txt -U
+```
 
-<!-- USAGE EXAMPLES -->
+
 ## Usage
 ```
-python OnlineAnomalyDetection.py -dataSource ./datasets/SPCTF-stream2D-withoutTimestamp.csv -targetColumn V45 -initialBatchTrainingSize 100 -batchSize 2 -maxSamples 100000 -timesteps_for_LSTM 5
+python OnlineAnomalyDetection.py -dataSource ../datasets/shuttle_small.csv -targetColumn 9 -initialBatchTrainingSize 100 -batchSize 5 -maxSamples 1000 -timesteps_for_LSTM 5
 ```
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-### TODO
-
-
-
-
-
-<!-- CONTACT -->
-## Contact
-
-### TODO
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-
 

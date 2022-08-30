@@ -1,4 +1,4 @@
 .\data_results
 .\figures\*
 Makefile
-!**/__pycache__/
+__pycache__/
