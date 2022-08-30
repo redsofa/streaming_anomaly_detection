@@ -59,16 +59,18 @@ pip install -r requirement.txt -U
 
 2. Mac OS X
 ```
+pip install virtualenv
 python -m virtualenv venv
 source ./venv/bin/activate
-pip install -r requirements.txt -U
+pip install -r requirement.txt -U
 ```
 
 3. Linux
 ```
+pip install virtualenv
 python -m virtualenv venv
 source ./venv/bin/activate
-pip install -r requirements.txt -U 
+pip install -r requirement.txt -U
 ```
 
 ## Usage
