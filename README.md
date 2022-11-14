@@ -79,3 +79,17 @@ mkdir data_results
 python OnlineAnomalyDetection.py -dataSource ../datasets/shuttle_small.csv -targetColumn 9 -initialBatchTrainingSize 100 -batchSize 5 -maxSamples 10000 -timesteps_for_LSTM 5
 ```
 
+## Citation
+If you use or reference this work in a scientific publication,
+we would appreciate that you use the following citations:
+
+```
+@INPROCEEDINGS{belacel2022lstmae,
+  title={A tale of two cities: Analyzing road accidents with big spatial data},
+  author={Belacel, Nabil and Richard, Rene and Xu Zhicheng},
+  booktitle={2022 IEEE International Conference on Big Data (Big Data)},
+  pages={},
+  year={2022},
+  organization={IEEE}
+}
+```
