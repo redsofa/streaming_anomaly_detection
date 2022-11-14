@@ -86,7 +86,7 @@ we would appreciate that you use the following citations:
 ```
 @INPROCEEDINGS{belacel2022lstmae,
   title={An LSTM Encoder-Decoder Approach for Unsupervised Online Anomaly Detection in Machine Learning Packages for Streaming Data},
-  author={Belacel, Nabil and Richard, Rene and Xu Zhicheng},
+  author={Belacel, Nabil and Richard, Rene and Xu, Zhicheng},
   booktitle={2022 IEEE International Conference on Big Data (Big Data)},
   pages={},
   year={2022},
